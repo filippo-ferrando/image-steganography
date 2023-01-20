@@ -4,7 +4,7 @@
 Image Steganography is the process of hiding information which can be text, image or video inside a cover image. The secret information is hidden in a way that it not visible to the human eyes.
 
 ## How?
-The intention is to hide any kind of data in a picture using the fact that a phot is only an interpretation of pixels (3-value type of data)
+The intention is to hide any kind of data (in this demonstration we are using text) in a picture using the fact that a phot is only an interpretation of pixels (3-value type of data)
 
 ## Example
 Suppose that the message we want to hide is "Hello", since the message made of 5 byte, the pixels required for the encoding are 3·5=15, so a 4x4 image will be good to hide that kind of information
@@ -32,7 +32,7 @@ Let's make an example with the H:
 (86,23,54),(12,53,84),(132,22,210)
 ```
 
-** Do the same thing for all the letter **
+*** Do the same thing for all the letter ***
 
 ```
 [(86,23,54),(12,53,84),(132,22,210),(61,19,248),
